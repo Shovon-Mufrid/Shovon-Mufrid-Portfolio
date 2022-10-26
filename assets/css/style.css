@@ -1,42 +1,9 @@
-/**
- Theme Name: Davis
- Author: Laralink
- Version: 1.0.0
- */
-/*Google Fonts*/
+
+/*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-/*--------------------------------------------------------------
->> TABLE OF CONTENTS:
-----------------------------------------------------------------
-1. Typography
-2. Spacing
-3. General
-4. Preloader
-5. Header
-6. Button
-7. Slider
-8. Section Heading
-9. Icon box
-10. Text Block
-11. Text Block
-12. Video Block
-13. Image Box
-14. Funfact
-15. Isotope
-16. Image Gallery
-17. Skill
-18. Post
-19. Testimonial
-20. Contact Form
-21. Blog Details
-22. Comments
-23. Footer
 
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-1. Typography
-----------------------------------------------------------------*/
+/* all  */
 body,
 html {
   color: #a9adb8;
@@ -140,9 +107,7 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-2. Spacing
-----------------------------------------------------------------*/
+
 @media screen and (min-width: 992px) {
   .st-height-b0 {
     height: 0px;
@@ -407,9 +372,7 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-3. General
-----------------------------------------------------------------*/
+
 .st-mp0 {
   list-style: none;
   margin: 0;
@@ -523,9 +486,7 @@ hr {
   }
 }
 
-/*--------------------------------------------------------------
-5. Header
-----------------------------------------------------------------*/
+/* header  */
 .st-site-header.st-style1 {
   background-color: rgba(7, 13, 27, 0.9);
   -webkit-box-shadow: 0 10px 10px -10px rgba(7, 13, 27, 0.1);
@@ -704,7 +665,7 @@ hr {
   .st-nav .sp-phone {
     display: none;
   }
-  /*Mobile Menu Button*/
+  /* Menu Button*/
   .st-munu-toggle {
     position: relative;
     display: inline-block;
@@ -916,10 +877,7 @@ hr {
   }
 }
 
-/*--------------------------------------------------------------
-8. Slider
--
----------------------------------------------------------------*/
+/* hero */
 .st-hero-wrap {
   position: relative;
   height: 850px;
@@ -1158,7 +1116,7 @@ canvas {
   }
 }
 
-/* ANIMATIONS */
+/* animation */
 .x1 {
   -webkit-animation: animateBubble 25s linear infinite,
  sideWays 2s ease-in-out infinite alternate;
@@ -1269,7 +1227,7 @@ canvas {
           transform: scale(0.3);
 }
 
-/* OBJECTS */
+/* object  */
 .bubble {
   border-radius: 50%;
   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px white;
@@ -1327,9 +1285,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-6. Button
-----------------------------------------------------------------*/
+/* button  */
 .st-btn.st-style1,
 .st-btn.st-style2 {
   display: -webkit-inline-box;
@@ -1430,9 +1386,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-9. Section Heading
-----------------------------------------------------------------*/
+/* heading  */
 .st-section-heading.st-style1 {
   text-align: center;
   position: relative;
@@ -1495,10 +1449,8 @@ canvas {
   }
 }
 
-/* End Section Heading */
-/*--------------------------------------------------------------
-9. About Section
-----------------------------------------------------------------*/
+
+/* about  */
 .st-about-img {
   min-height: 550px;
 }
@@ -1552,9 +1504,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-10. Icon box
-----------------------------------------------------------------*/
+/* icon box  */
 .st-iconbox.st-style1 {
   text-align: center;
   padding: 50px 30px;
@@ -1619,9 +1569,7 @@ canvas {
   margin-bottom: -6px;
 }
 
-/*--------------------------------------------------------------
-18. Skill
-----------------------------------------------------------------*/
+/* skills */
 .st-skill-title {
   font-size: 36px;
   font-weight: 400;
@@ -1679,9 +1627,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-18. Resume Section
-----------------------------------------------------------------*/
+/* Resume  */
 .st-resume-heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1751,9 +1697,7 @@ canvas {
   border-left: 1px solid #232935;
 }
 
-/*--------------------------------------------------------------
-1. Portfolio
-----------------------------------------------------------------*/
+/* portfolio */
 .st-portfolio {
   display: block;
   position: relative;
@@ -1865,9 +1809,7 @@ canvas {
   margin-top: 20px;
 }
 
-/*--------------------------------------------------------------
-7. Slider
-----------------------------------------------------------------*/
+/* slider */
 .st-slider.st-style1,
 .st-slider.st-style2 {
   position: relative;
@@ -2059,9 +2001,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-24. Testimonial
-----------------------------------------------------------------*/
+/* client testimonial */
 .st-testimonial.st-style1:hover .st-testimonial-name {
   color: #fec544;
 }
@@ -2153,9 +2093,7 @@ canvas {
   line-height: 1.3em;
 }
 
-/*--------------------------------------------------------------
-17. Blog
-----------------------------------------------------------------*/
+/* blog */
 .st-post-single.st-style1 .st-post-thumb {
   display: block;
   overflow: hidden;
@@ -2196,9 +2134,7 @@ canvas {
   color: #fec544;
 }
 
-/*--------------------------------------------------------------
-27. Blog Details
-----------------------------------------------------------------*/
+/* blog details */
 .st-page-heading {
   height: 650px;
   display: -webkit-box;
@@ -2624,9 +2560,7 @@ canvas {
   }
 }
 
-/*--------------------------------------------------------------
-28. Comments
-----------------------------------------------------------------*/
+/* comment */
 .comments-title,
 .comment-reply-title {
   font-size: 18px;
@@ -2834,9 +2768,7 @@ canvas {
   margin: 0 25px;
 }
 
-/*--------------------------------------------------------------
-26. Contact Form
-----------------------------------------------------------------*/
+/* contact */
 #st-alert {
   font-size: 15px;
   font-weight: 300;
