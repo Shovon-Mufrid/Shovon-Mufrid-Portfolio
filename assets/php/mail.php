@@ -1,6 +1,6 @@
 <?php
 
-$to 		= 'shovonmufrid98@gmail.com.com';
+$to 		= 'shovonmufrid98@gmail.com';
 $headers	= 'FROM: "'.$email.'"';
 
 //value taken from JS
